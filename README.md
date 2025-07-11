@@ -13,7 +13,7 @@ A robust OpenStack HA deployment relies on distributing critical services across
 * **Compute Nodes (2+)**: Responsible for hosting virtual machine instances. Multiple compute nodes enable workload distribution, live migration, and instance evacuation in case of node failure.
 * **Storage Nodes (3+)**: Dedicated nodes for object storage (Swift) or block storage (Cinder with Ceph/other distributed storage), minimum of three nodes for Swift ensures 3x data replication for high durability.
 
-![image-01.png](.image-01.png)
+![image-01.png](image-01.png)
 
 ## High Availability (HA) Design
 
@@ -59,7 +59,7 @@ A robust OpenStack HA deployment relies on distributing critical services across
 
 ## Deployment Architecture Design
 
-![image-02.png](.image-02.png)
+![image-02.png](image-02.png)
 
 ## Step-by-Step Implementation
 
