@@ -39,6 +39,11 @@ debug: false
 # repositories to install OpenStack using distribution packages
 install_method: source
 
+ansible_user: ubuntu
+# You might also want to add this, as the docs recommend it:
+ansible_become: true
+ansible_remote_tmp: /tmp 
+
 ## Common Glance Overrides
 # Set glance_default_store to "swift" if using Cloud Files backend
 # or "rbd" if using ceph backend; the latter will trigger ceph to get

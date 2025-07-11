@@ -1,0 +1,3 @@
+export ANSIBLE_REMOTE_USER="ubuntu"
+export ANSIBLE_BECOME="True"
+export ANSIBLE_LOCAL_TEMP="/tmp"
