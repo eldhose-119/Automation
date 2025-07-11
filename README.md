@@ -107,7 +107,7 @@ Navigate to the Terraform directory:
 
 * **Clone the OpenStack-Ansible repository into `/opt/openstack-ansible`:**
     ```
-    git clone --branch stable/2025.1 [https://opendev.org/openstack/openstack-ansible.git](https://opendev.org/openstack/openstack-ansible.git) /opt/openstack-ansible
+    git clone https://github.com/eldhose-119/Automation.git /opt/openstack-ansible
     ```
 
 * **Transfer and/or Update the Inventory File (`openstack_user_config.yml`):**
