@@ -77,13 +77,13 @@ Replace `~/.ssh/id_rsa.pub` with the actual path to your SSH public key on your 
 **This Terraform setup also generates the `openstack_user_config.yml` file using the `openstack_user_config.yml.tpl` template.**
 
 #### How to run the terraform:
-Navigate to the Terraform directory:
-``` cd /openstack-ansible/terraform ```
+Navigate to the Terraform directory: ``` cd /openstack-ansible/terraform ```
+
     ```
     terraform init
     terraform plan
     terraform apply --auto-approve
-    ````
+    ```
 
 #### Node Setup:
 * 3 Controller nodes (t3.xlarge) for HA (Keystone, Nova API, Neutron, Galera DB).
