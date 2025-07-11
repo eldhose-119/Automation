@@ -41,7 +41,7 @@ A robust OpenStack HA deployment relies on distributing critical services across
 
 ## Automation Approach
 
-* **Toolchain**: The production-grade, idempotent Ansible playbooks provided by OpenStack-Ansible (OSA) can be accessed from their official Git repository.
+* **Toolchain**: The production-grade, idempotent Ansible playbooks provided by OpenStack-Ansible (OSA).
 * **Playbooks**: Automate provisioning, configuration, and deployment of all OpenStack components, including HA configuration.
 * **Configuration**: All infrastructure and OpenStack variables defined in YAML (`openstack_user_config.yml`, `user_variables.yml`).
 * **Idempotence & Rollback**: Playbooks are idempotent. On failure, fix the error and re-run safely.
