@@ -78,8 +78,8 @@ Replace `~/.ssh/id_rsa.pub` with the actual path to your SSH public key on your 
 
 #### How to run the terraform:
 Navigate to the Terraform directory:
+``` cd /openstack-ansible/terraform ```
     ```
-    cd /openstack-ansible/terraform
     terraform init
     terraform plan
     terraform apply --auto-approve
